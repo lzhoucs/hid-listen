@@ -2,6 +2,11 @@
   "name": "hid-listen",
   "version": "0.1.0",
   "main": "index.js",
+  "scripts": {
+  },
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "node-hid": "^1.2.0"
+  }
 }
