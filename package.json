@@ -1,6 +1,6 @@
 {
   "name": "hid-listen-console",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "bin": {
     "hid-listen-console": "bin/cli.js"
   },
@@ -9,6 +9,8 @@
     "build": "webpack --mode=production"
   },
   "license": "MIT",
+  "homepage": "https://github.com/lzhoucs/hid-listen-console",
+  "repository": "lzhoucs/hid-listen-console",
   "dependencies": {
     "node-hid": "^1.2.0"
   },
