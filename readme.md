@@ -8,7 +8,7 @@ To install, run:
 yarn global add hid-listen-console
 ```
 
-Then run `hid-listen-console:
+Then run `hid-listen-console`:
 
 ``` sh
 ➜  hid-listen-console
