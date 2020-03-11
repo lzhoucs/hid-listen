@@ -8,7 +8,7 @@ module.exports = {
   ],
   output: {
     path: `${__dirname}/dist`,
-    filename: "app.[contenthash].js"
+    filename: "app.min.js"
   },
   devtool: "source-map",
   target: 'node',

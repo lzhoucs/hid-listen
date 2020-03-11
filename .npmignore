@@ -1,0 +1,10 @@
+# Ignore everything by default
+*
+
+# Keep source
+!/src/**/*
+
+# Keep built files
+!/dist/**/*
+
+!/bin/cli.js
