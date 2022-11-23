@@ -9,6 +9,7 @@ const hidDevice = devices.find(({usage}) => usage === 116)
 if (hidDevice) {
   log(`Detect HID device: ${hidDevice.manufacturer} - ${hidDevice.product}, productId: ${hidDevice.productId}, vendorId: ${hidDevice.vendorId}`)
 
+  log(`Opening device ${hidDevice.productId} with path: ${hidDevice.path}`)
   const hid1 = new HID.HID(hidDevice.path)
 
   hid1.on("data", data => log(data.toString()))
